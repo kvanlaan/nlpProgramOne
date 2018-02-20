@@ -85,7 +85,7 @@ public class BigramModel {
 		bigramValue = new DoubleValue();
 		bigramMap.put(bigram, bigramValue);
 	    }
-	    // Count bigram
+	    // Count bigram..
 	    bigramValue.increment();
 	    prevToken = token;
 	}
