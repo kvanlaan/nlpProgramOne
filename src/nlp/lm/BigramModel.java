@@ -252,7 +252,7 @@ public class BigramModel {
     
     /** Like sentenceLogProb but excludes predicting end-of-sentence when computing prob */
     public double sentenceLogProb2 (List<String> sentence) {
-	String prevToken = "<S>";
+        String prevToken = "<S>";
 	double sentenceLogProb = 0;
 	for (String token : sentence) {
 	    DoubleValue unigramVal = unigramMap.get(token);
